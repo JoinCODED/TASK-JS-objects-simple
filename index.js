@@ -12,7 +12,28 @@
  */
 
 // add the movies variables here ....
-
+const movie1 = {
+  id: 1,
+  name: 'Mulan',
+  image:
+    'https://upload.wikimedia.org/wikipedia/en/1/17/Mulan_%282020_film%29_poster.jpg',
+  rating: 5,
+};
+const movie2 = {
+  id: 2,
+  name: 'The Platform',
+  image:
+    'https://static.wikia.nocookie.net/netflix/images/1/13/The_Platform.jpg',
+  rating: 8,
+};
+const movie3 = {
+  id: 3,
+  name: 'Spider man',
+  image:
+    'https://pics.filmaffinity.com/Spider_Man_Far_from_Home-176834859-large.jpg',
+  rating: 1,
+};
+console.log(movie1, movie2, movie3);
 /** Task 2:
  * Create an array `movies`
  * Add to it the movies that you created on top.
@@ -29,6 +50,29 @@
  *    },
  * ]
  */
+const movies = [
+  {
+    id: 1,
+    name: 'Mulan',
+    image:
+      'https://upload.wikimedia.org/wikipedia/en/1/17/Mulan_%282020_film%29_poster.jpg',
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: 'The Platform',
+    image:
+      'https://static.wikia.nocookie.net/netflix/images/1/13/The_Platform.jpg',
+    rating: 8,
+  },
+  {
+    id: 3,
+    name: 'Spider man',
+    image:
+      'https://pics.filmaffinity.com/Spider_Man_Far_from_Home-176834859-large.jpg',
+    rating: 1,
+  },
+];
 
 /** TASK 3:
  * Create a new file call it `movies.json`
